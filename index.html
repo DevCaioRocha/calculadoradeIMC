@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+
+<body>
+    <main class="container">
+        <div id="info">
+            <div id="title">
+                <h1>Calcule seu IMC</h1>
+                <h2>Informações do paciente</h2>
+            </div>
+            <div id="dados">
+                <div>
+                    <label for="nome">NOME: </label>
+                    <input type="text" name="nome" id="nome">
+                    <div id="campo1">
+                        <label for="peso">PESO:</label>
+                        <input type="number" name="peso" id="peso">
+                    </div>
+                    <div id="campo2">
+                        <label for="altura">ALTURA: </label>
+                        <input type="number" name="altura" id="altura">
+                    </div>
+                </div>
+            </div>
+            <button id="btn" onclick="calcularIMC(peso,altura)">CALCULAR</button>
+            <p id="resultado"></p>
+    </main>
+    <footer><a href="">
+            <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/289725256bcc40f6347fe656c084b42057633bc8/icons/github.svg"
+                alt="">
+        </a></footer>
+</body>
+
+</html>

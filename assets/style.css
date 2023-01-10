@@ -1,0 +1,22 @@
+html {
+    display: flex;
+    justify-content: center;
+    color: whitesmoke;
+}
+
+#campo2,
+#campo1 {
+    margin-top: 1em;
+}
+
+#btn {
+    background-color: rgb(190, 35, 35);
+    color: aliceblue;
+    margin-top: 1em;
+}
+
+#info {
+    background-color: rgb(45, 45, 177);
+    padding: 10px;
+    border-radius: 30px;
+}
